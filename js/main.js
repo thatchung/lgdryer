@@ -93,7 +93,7 @@ function shareGame(){
             method: 'feed',
             name: 'Facebook Dialogs',
             // link: 'https://developers.facebook.com/docs/dialogs/',
-            picture: `https://thatchung.github.io/lgdryer.github.io/${shareImage}`,
+            picture: `https://dodohanhphucquanao.ga/${shareImage}`,
             caption: 'Reference Documentation',
             description: `Dialogs provide a simple, 
                           consistent interface for applications to 
