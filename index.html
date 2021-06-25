@@ -16,6 +16,27 @@
   <script src="https://connect.facebook.net/en_US/fbinstant.6.3.js"></script>
   <script src="js/lib/html2canvas.min.js" ></script>
   <script src="js/main.js" ></script>
+  <script type="text/javascript">
+      window.fbAsyncInit = function() {
+          FB.init({
+              appId: 170030351759846,
+              status: true,
+              xfbml: true
+          });
+      };
+
+      (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) {
+              return;
+          }
+          js = d.createElement(s);
+          js.id = id;
+          js.src = "//connect.facebook.net/en_US/all.js";
+          fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+  </script>
+
 <div class="panel" id="home_screen">
     <img src="img/logo.png" id="logo_lg" style="width: 60px;position: absolute;left: 10px;top: 10px;"/>
     <div class="share-body" id="share_body" style="display:none;">
@@ -92,6 +113,7 @@
       <div class="button-panel">
         <!-- <a target="_blank" href="https://www.lg.com/vn/tu-lanh/lg-GR-B247JDS"><div class="btn-share" style="margin-left: 15%;float:left"></div></a> -->
         <div class="btn-share" id="share_btn">
+          <!-- <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="" data-layout="standard" data-size="small" data-share="true"></div> -->
           <!-- <img class="img-share" src="img/fb.png"/>
           <div class="bt-text">Share</div> -->
         </div>
