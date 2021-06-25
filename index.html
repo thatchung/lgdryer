@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width, user-scalable=no, minimal-ui">
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="full-screen" content="yes"/>
+  <meta name="screen-orientation" content="portrait"/>
+  <!-- <meta name="viewport" content="user-scalable=no"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link href="css/default.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://connect.facebook.net/en_US/fbinstant.6.3.js"></script>
+  <script src="js/lib/html2canvas.min.js" ></script>
+  <script src="js/main.js" ></script>
+<div class="panel" id="home_screen">
+    <img src="img/logo.png" id="logo_lg" style="width: 60px;position: absolute;left: 10px;top: 10px;"/>
+    <div class="share-body" id="share_body" style="display:none;">
+        <div class="number-block-share">
+          Độ hạnh phúc áo quần bạn là </br>
+          <span id="num_percent_share" >60%</span>
+        </div>
+      <div class="text-panel-share" id="text_panel_share">Áo quần của bạn đang lo lắm đấy.Hằng ngày chúng phải đối mặt với rất hiều bụi bẩn và vi khuẩn</div>
+    </div>
+    <div class="loading-panel" id="loading_panel">
+      <div class="logo-home"></div>
+      <div class="start-btn"  id="start_btn" style=""></div>
+    </div>
+    <div class="screen-1" id="screen_1" style="display:none;">
+      <div class="text-question question-1"></div>
+      <div class="choice-item magictime puffIn img-1" id="choice_1">
+        <!-- <div class="text-item" id="choice_1">Căn hộ chung cư</div> -->
+      </div>
+      <div class="choice-item magictime puffIn img-2" id="choice_2">
+        <!-- <div class="text-item" id="choice_2">Nhà trong ngõ/hẻm</div> -->
+      </div>
+      <div class="choice-item magictime puffIn img-3" id="choice_3">
+        <!-- <div class="text-item" id="choice_3">Nhà mặt phố</div> -->
+      </div>
+    </div>
+
+    <div class="screen-2" id="screen_2" style="display:none;">
+      <div class="text-question question-2"></div>
+      <div class="choice-item magictime puffIn img-4" id="choice_4">
+        <!-- <div class="text-item" id="choice_4">Phơi quần áo</div> -->
+      </div>
+      <div class="choice-item magictime puffIn img-5" id="choice_5">
+        <!-- <div class="text-item" id="choice_5">Dùng máy sấy</div> -->
+      </div>
+      
+    </div>
+
+    <div class="screen-3" id="screen_3" style="display:none;">
+      <div class="text-question question-31"></div>
+      <div class="choice-item magictime puffIn img-6" id="choice_50">
+        <!-- <div class="text-item" id="choice_40">Phơi dồ dưới quạt trần</div> -->
+      </div>
+      <div class="choice-item magictime puffIn img-7" id="choice_40">
+        <!-- <div class="text-item" id="choice_50">Phơi đồ trong nhà</div> -->
+      </div>
+      <div class="choice-item magictime puffIn img-8" id="choice_60">
+        <!-- <div class="text-item" id="choice_60">Phơi quần áo qua đêm</div> -->
+      </div>
+      <div class="choice-item magictime puffIn img-9" id="choice_30">
+        <!-- <div class="text-item" id="choice_30">Phơi gần dàn nóng điều hòa</div> -->
+      </div>
+    </div>
+
+    <div class="screen-4" id="screen_4" style="display:none;">
+      <div class="text-question question-3"></div>
+      <div class="choice-item magictime puffIn img-10" id="choice_80">
+        <!-- <div class="text-item" id="choice_70">Sấy nhiệt</div> -->
+      </div>
+      <div class="choice-item magictime puffIn img-11" id="choice_70">
+        <!-- <div class="text-item" id="choice_80">Máy sấy ngưng tụ</div> -->
+      </div>
+      <div class="choice-item magictime puffIn img-12" id="choice_90">
+        <!-- <div class="text-item" id="choice_90">Máy sấy Heat Pump</div> -->
+      </div>
+      <div class="choice-item magictime puffIn img-13" id="choice_100">
+        <!-- <div class="text-item" id="choice_100">Máy sấy Dual Inverter Heat Pump</div> -->
+      </div>
+    </div>
+
+    <div class="screen-5" id="screen_5" style="display:none;">
+      <div class="share-panel magictime puffIn">
+        <img src="img/i1.png" id="img_content" style="width: 100%;"/>
+      </div>
+      <div class="button-panel">
+        <!-- <a target="_blank" href="https://www.lg.com/vn/tu-lanh/lg-GR-B247JDS"><div class="btn-share" style="margin-left: 15%;float:left"></div></a> -->
+        <div class="btn-share" id="share_btn">
+          <!-- <img class="img-share" src="img/fb.png"/>
+          <div class="bt-text">Share</div> -->
+        </div>
+      </div>
+      
+    </div>
+</div>
+ 
+</body>
+</html>
