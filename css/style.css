@@ -1,0 +1,117 @@
+body {
+    background-color: #fff;
+}
+.panel p {
+    color: #6d84b4;
+    font-family: 'Tahoma';
+}
+
+#error-messages {
+    color: #f00;
+}
+
+#scene {
+    width: 90%;
+    height: 90%;
+    overflow-x: auto;
+}
+
+@font-face {
+  font-family: 'myGotham';
+  src: url('Gotham.ttf');
+ }
+
+div{
+  font-family: 'myGotham';
+}
+
+.magictime {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.vanishIn {
+  animation-name: vanishIn;
+}
+
+@-webkit-keyframes vanishIn {
+  0% {
+    opacity: 0;
+    filter: blur(90px);
+  }
+  100% {
+    opacity: 1;
+    filter: blur(0px);
+  }
+}
+
+@keyframes vanishIn {
+  0% {
+    opacity: 0;
+    filter: blur(90px);
+  }
+  100% {
+    opacity: 1;
+    filter: blur(0px);
+  }
+}
+
+.puffIn {
+  animation-name: puffIn;
+}
+
+@-webkit-keyframes puffIn {
+  0% {
+    opacity: 0;
+    transform-origin: 50% 50%;
+    transform: scale(2, 2);
+    filter: blur(2px);
+  }
+  100% {
+    opacity: 1;
+    transform-origin: 50% 50%;
+    transform: scale(1, 1);
+    filter: blur(0px);
+  }
+}
+
+@keyframes puffIn {
+  0% {
+    opacity: 0;
+    transform-origin: 50% 50%;
+    transform: scale(2, 2);
+    filter: blur(2px);
+  }
+  100% {
+    opacity: 1;
+    transform-origin: 50% 50%;
+    transform: scale(1, 1);
+    filter: blur(0px);
+  }
+}
+
+.puffOut {
+  animation-name: puffOut;
+}
+
+@-webkit-keyframes puffOut {
+  0% {
+    opacity: 1;
+    filter: blur(0px);
+  }
+  100% {
+    opacity: 0;
+    filter: blur(2px);
+  }
+}
+
+@keyframes puffOut {
+  0% {
+    opacity: 1;
+    filter: blur(0px);
+  }
+  100% {
+    opacity: 0;
+    filter: blur(2px);
+  }
+}

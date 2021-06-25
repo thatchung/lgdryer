@@ -1,0 +1,140 @@
+@media only screen and (min-width: 460px) and (max-width: 500px){
+  .main-panel{
+    
+  }
+  #vid{
+    width: 530px;
+  }
+  .av-img{
+    width: 330px;
+    height: 420px;
+  }
+  .user-avatar{
+    margin-top: calc(-50% - 21px);
+  }
+  .img-avatar{
+    width: 291px;
+    height: 291px;
+    margin-top: 72px;
+  }
+  .op-avatar{
+    left: 27px;
+    width: 265px;
+    height: 265px;
+  }
+  .cron-img{
+    top: 50px;
+  }
+  .de-avatar{
+    width: 280px;
+    height: 125px;
+    margin-top: 308px;
+  }
+  .detail-img{
+  	width: 380px;
+  }
+  .img-avatar-1{
+    width: 150px;
+    height: 150px;
+    top: 217px;
+  }
+  .share-btn{
+    width: 220px;
+    height: 90px;
+  }
+  .div-avatar{
+    width: 463px;
+    height: 543px;
+  }
+  .detail-text{
+    font-size: 22px;
+    top: 410px;
+        width: 400px;
+  }
+  .share-body{
+  	width: 450px;
+    height: 450px;
+  }
+  .img-avatar-share{
+  	top: 252px;
+    width: 116px;
+    height: 116px;
+  }
+  .detail-text-share{
+  	width: 450px;
+    font-size: 17px;
+  }
+  .share-btn{
+    width: 240px;
+    height: 95px;
+  }
+}
+@media only screen and (min-width: 420px) and (max-width: 459px){
+  .main-panel{
+    
+  }
+  .av-img{
+    width: 330px;
+    height: 420px;
+  }
+  .user-avatar{
+    margin-top: calc(-50% - 21px);
+  }
+  .img-avatar{
+    width: 291px;
+    height: 291px;
+    margin-top: 72px;
+  }
+  .op-avatar{
+    left: 27px;
+    width: 265px;
+    height: 265px;
+  }
+  .cron-img{
+    top: 50px;
+  }
+  .de-avatar{
+    width: 280px;
+    height: 125px;
+    margin-top: 308px;
+  }
+  .detail-img{
+  	width: 330px;
+  }
+  .img-avatar-1{
+    width: 126px;
+    height: 126px;
+    top: 191px;
+  }
+  .start-btn{
+    /*width: 140px;
+    height: 70px;
+    bottom: 40px;*/
+  }
+  .div-avatar{
+    width: 463px;
+    height: 543px;
+  }
+  .detail-text{
+    font-size: 22px;
+    top: 360px;
+    width: 400px;
+  }
+  .share-body{
+  	width: 360px;
+  	height: 360px;
+  }
+  .img-avatar-share{
+  	top: 224px;
+    width: 105px;
+    height: 105px;
+  }
+  .detail-text-share{
+  	width: 360px;
+  	font-size: 14px;
+  }
+  .share-btn{
+    width: 240px;
+    height: 95px;
+  }
+}
