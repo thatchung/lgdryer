@@ -102,7 +102,7 @@ function shareGame(){
             method: 'share',
             // display: 'popup',
             name: 'Máy sấy LG DUAL Inverter Heat Pump',
-            hashtag: '#lg',
+            // hashtag: '#lg',
             quote: 'Máy sấy LG DUAL Inverter Heat Pump',
             // href: `https://dodohanhphucquanao.ga/${shareImage}`,
             href: `https://dodohanhphucquanao.ga/${shareHtml}`,
