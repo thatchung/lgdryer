@@ -17,7 +17,7 @@ setTimeout(function(){
 	}
 
 }, 300);
-FBInstant.startGameAsync().then()
+// FBInstant.startGameAsync().then()
 
 function toDataURL(src) {
     let img = new Image();
@@ -90,11 +90,16 @@ function shareGame(){
 
 	FB.ui(
         {
-            method: 'feed',
-            name: 'Facebook Dialogs',
-            // link: 'https://developers.facebook.com/docs/dialogs/',
-            picture: `https://dodohanhphucquanao.ga/${shareImage}`,
-            caption: 'Reference Documentation',
+            method: 'share',
+            // display: 'popup',
+            name: 'Máy sấy LG DUAL Inverter Heat Pump',
+            hashtag: '#lg',
+            quote: 'Máy sấy LG DUAL Inverter Heat Pump',
+            href: `https://dodohanhphucquanao.ga/${shareImage}`,
+            // link: `https://www.lg.com/vn/may-giat-va-may-say/lg-dvhp09w`,
+            // picture: `https://dodohanhphucquanao.ga/${shareImage}`,
+            thumbnail: `https://dodohanhphucquanao.ga/${shareImage}`,
+            caption: 'Máy sấy LG DUAL Inverter Heat Pump',
             description: `Dialogs provide a simple, 
                           consistent interface for applications to 
                           interface with users.`
