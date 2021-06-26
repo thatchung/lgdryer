@@ -7,7 +7,7 @@ setTimeout(function(){
 	document.getElementById('start_btn').addEventListener('click',playGame);
 	document.getElementById('share_btn').addEventListener('click',shareGame);
 	var images = ['img/i1.png','img/i2.png','img/i6.png','img/i4.png','img/i5.png','img/i3.png','img/i7.png','img/i8.png'];
-  	var images1 = ['img/s1.jpg','img/s2.jpg','img/s3.jpg','img/s4.jpg','img/s5.jpg','img/s31.jpg','img/s7.jpg','img/s8.jpg'];
+  	var images1 = ['img/s11.jpg','img/s21.jpg','img/s31.jpg','img/s41.jpg','img/s51.jpg','img/s311.jpg','img/s71.jpg','img/s81.jpg'];
 
 	for (var i=0; i < images.length; i++) {
 	  list_share_image.push({
