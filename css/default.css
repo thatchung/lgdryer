@@ -127,9 +127,9 @@ body{
 }
 
 .choice-item{
-  width: 320px;
+  width: 270px;
   margin: auto;
-  height: 95px;
+  height: 80px;
   border-radius: 15px;
   margin-bottom: 15px;
   background-size: 100% 100%;
@@ -212,11 +212,11 @@ body{
 }
 
 .text-question{
-  width: 310px;
+  width: 250px;
   margin: auto;
-  height: 215px;
-  margin-top: 40px;
-  margin-bottom: 25px;
+  height: 175px;
+  margin-top: 35px;
+  margin-bottom: 20px;
 }
 
 .question-1{
@@ -276,18 +276,29 @@ body{
 }
 
 .button-panel{
-  width: 100%;
+  width: 220px;
   margin-top: 15px;
+  display: flex;
+  margin: auto;
+}
+
+.btn-item{
+  width: 100px;
+  height: 85px;
+  background: url(../img/item.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin-top: 20px;
 }
 
 .btn-share{
-  width: 200px;
+  width: 100px;
   height: 85px;
-  margin-left: 50%;
-  transform: translate(-50%);
-  background: url(../img/fb.png);
+  background: url(../img/fbl.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .img-share{

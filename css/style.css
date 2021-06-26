@@ -3,26 +3,10 @@ body {
 }
 .panel p {
     color: #6d84b4;
-    font-family: 'Tahoma';
 }
 
 #error-messages {
     color: #f00;
-}
-
-#scene {
-    width: 90%;
-    height: 90%;
-    overflow-x: auto;
-}
-
-@font-face {
-  font-family: 'myGotham';
-  src: url('Gotham.ttf');
- }
-
-div{
-  font-family: 'myGotham';
 }
 
 .magictime {
