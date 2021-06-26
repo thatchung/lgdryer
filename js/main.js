@@ -60,31 +60,40 @@ function showChoiceScreen2() {
 function shareGame(){
 
 
-	let shareImage = 'img/s1.jpg'
+	let shareImage = 'img/s1.jpg';
+	let shareHtml = '30';
 
 	if(list_share_image.length > 0 && percent == 30) {
-		shareImage.src = list_share_image[0].s_img.src
+		shareImage = list_share_image[0].s_img;
+		shareHtml = '30.html';
 	}
 	if(list_share_image.length > 0 && percent == 40) {
-		shareImage.src = list_share_image[1].s_img.src
+		shareImage = list_share_image[1].s_img;
+		shareHtml = '40.html';
 	}
 	if(list_share_image.length > 0 && percent == 50) {
-		shareImage.src = list_share_image[2].s_img.src
+		shareImage = list_share_image[2].s_img;
+		shareHtml = '50.html';
 	}
 	if(list_share_image.length > 0 && percent == 60) {
-		shareImage.src = list_share_image[3].s_img.src
+		shareImage = list_share_image[3].s_img;
+		shareHtml = '60.html';
 	}
 	if(list_share_image.length > 0 && percent == 70) {
-		shareImage.src = list_share_image[4].s_img.src
+		shareImage = list_share_image[4].s_img;
+		shareHtml = '70.html';
 	}
 	if(list_share_image.length > 0 && percent == 80) {
-		shareImage.src = list_share_image[5].s_img.src
+		shareImage = list_share_image[5].s_img;
+		shareHtml = '501.html';
 	}
 	if(list_share_image.length > 0 && percent == 90) {
-		shareImage.src = list_share_image[6].s_img.src
+		shareImage = list_share_image[6].s_img;
+		shareHtml = '90.html';
 	}
 	if(list_share_image.length > 0 && percent == 100) {
-		shareImage.src = list_share_image[7].s_img.src
+		shareImage = list_share_image[7].s_img;
+		shareHtml = '100.html';
 	}
 
 
@@ -95,7 +104,8 @@ function shareGame(){
             name: 'Máy sấy LG DUAL Inverter Heat Pump',
             hashtag: '#lg',
             quote: 'Máy sấy LG DUAL Inverter Heat Pump',
-            href: `https://dodohanhphucquanao.ga/${shareImage}`,
+            // href: `https://dodohanhphucquanao.ga/${shareImage}`,
+            href: `https://dodohanhphucquanao.ga/${shareHtml}`,
             // link: `https://www.lg.com/vn/may-giat-va-may-say/lg-dvhp09w`,
             // picture: `https://dodohanhphucquanao.ga/${shareImage}`,
             thumbnail: `https://dodohanhphucquanao.ga/${shareImage}`,
