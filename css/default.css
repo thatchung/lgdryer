@@ -247,9 +247,9 @@ body{
 
 .share-panel{
   position: relative;
-  width: 300px;
-  margin-left: calc(50% - 150px);
-  margin-top: 20px;
+  width: 270px;
+  margin-left: calc(50% - 135px);
+  margin-top: 10px;
 }
 
 .number-block{
@@ -278,28 +278,28 @@ body{
 }
 
 .button-panel{
-  width: 220px;
-  margin-top: 15px;
+  width: 200px;
+  margin-top: 10px;
   display: flex;
   margin: auto;
 }
 
 .btn-item{
-  width: 100px;
+  width: 90px;
   height: 85px;
   background: url(../img/item.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .btn-share{
-  width: 100px;
+  width: 90px;
   height: 85px;
   background: url(../img/fbl.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-left: 20px;
 }
 
