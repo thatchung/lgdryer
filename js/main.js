@@ -99,14 +99,14 @@ function shareGame(){
 
 	FB.ui(
         {
-            method: 'share',
+            method: 'feed',
             // display: 'popup',
-            name: 'Máy sấy LG DUAL Inverter Heat Pump',
+            name: 'Quần Áo Của Bạn Hạnh Phúc Đến Đâu?',
             // hashtag: '#lg',
             quote: 'Máy sấy LG DUAL Inverter Heat Pump',
             // href: `https://dodohanhphucquanao.ga/${shareImage}`,
             href: `https://dodohanhphucquanao.ga/${shareHtml}`,
-            // link: `https://www.lg.com/vn/may-giat-va-may-say/lg-dvhp09w`,
+            link: `https://dodohanhphucquanao.ga/${shareImage}`,
             // picture: `https://dodohanhphucquanao.ga/${shareImage}`,
             thumbnail: `https://dodohanhphucquanao.ga/${shareImage}`,
             caption: 'Máy sấy LG DUAL Inverter Heat Pump',
