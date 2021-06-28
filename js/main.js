@@ -38,9 +38,9 @@ function playGame() {
 	document.getElementById('loading_panel').style.display= "none";
 
 	document.getElementById('screen_1').style.display= "inherit";
-	setTimeout(function(){
-		document.getElementById('home_screen').style.width = "101%";
-	}, 500);
+	// setTimeout(function(){
+	// 	document.getElementById('home_screen').style.width = "101%";
+	// }, 500);
 	document.getElementById('choice_1').addEventListener('click',showChoiceScreen2);
 	document.getElementById('choice_2').addEventListener('click',showChoiceScreen2);
 	document.getElementById('choice_3').addEventListener('click',showChoiceScreen2);
@@ -50,9 +50,9 @@ function showChoiceScreen2() {
 
 	document.getElementById('screen_1').style.display= "none";
 	document.getElementById('screen_2').style.display= "inherit";
-	setTimeout(function(){
-		document.getElementById('home_screen').style.width = "100%";
-	}, 500);
+	// setTimeout(function(){
+	// 	document.getElementById('home_screen').style.width = "100%";
+	// }, 500);
 	document.getElementById('choice_4').addEventListener('click',showChoicePhoiAo);
 	document.getElementById('choice_5').addEventListener('click',showChoiceMaySay);
 }
@@ -99,20 +99,18 @@ function shareGame(){
 
 	FB.ui(
         {
-            method: 'feed',
+            method: 'share',
             // display: 'popup',
             name: 'Quần Áo Của Bạn Hạnh Phúc Đến Đâu?',
             // hashtag: '#lg',
-            quote: 'Máy sấy LG DUAL Inverter Heat Pump',
+            // quote: 'Máy sấy LG DUAL Inverter Heat Pump',
             // href: `https://dodohanhphucquanao.ga/${shareImage}`,
             href: `https://dodohanhphucquanao.ga/${shareHtml}`,
-            link: `https://dodohanhphucquanao.ga/${shareImage}`,
+            // link: `https://dodohanhphucquanao.ga/${shareImage}`,
             // picture: `https://dodohanhphucquanao.ga/${shareImage}`,
             thumbnail: `https://dodohanhphucquanao.ga/${shareImage}`,
-            caption: 'Máy sấy LG DUAL Inverter Heat Pump',
-            description: `Dialogs provide a simple, 
-                          consistent interface for applications to 
-                          interface with users.`
+            caption: 'Máy sấy LG DUAL Inverter Heat Pump Chăm Sóc Cho Quần Áo Của Bạn Luôn Luôn Hạnh Phúc!',
+            description: `Máy sấy LG DUAL Inverter Heat Pump Chăm Sóc Cho Quần Áo Của Bạn Luôn Luôn Hạnh Phúc!`
         },
         function(response) {
             if (response && response.post_id) {
@@ -133,9 +131,9 @@ function shareGame(){
 function showChoicePhoiAo() {
 	document.getElementById('screen_2').style.display= "none";
 	document.getElementById('screen_3').style.display= "inherit";
-	setTimeout(function(){
-		document.getElementById('home_screen').style.width = "101%";
-	}, 500);
+	// setTimeout(function(){
+	// 	document.getElementById('home_screen').style.width = "101%";
+	// }, 500);
 	document.getElementById('choice_30').addEventListener('click',function() { showResult(30) });
 	document.getElementById('choice_40').addEventListener('click',function() { showResult(40) });
 	document.getElementById('choice_50').addEventListener('click',function() { showResult(50) });
@@ -145,9 +143,9 @@ function showChoicePhoiAo() {
 function showChoiceMaySay() {
 	document.getElementById('screen_2').style.display= "none";
 	document.getElementById('screen_4').style.display= "inherit";
-	setTimeout(function(){
-		document.getElementById('home_screen').style.width = "101%";
-	}, 500);
+	// setTimeout(function(){
+	// 	document.getElementById('home_screen').style.width = "101%";
+	// }, 500);
 	document.getElementById('choice_70').addEventListener('click',function() { showResult(70) });
 	document.getElementById('choice_80').addEventListener('click',function() { showResult(80) });
 	document.getElementById('choice_90').addEventListener('click',function() { showResult(90) });
@@ -164,9 +162,9 @@ function showResult(nun_percent) {
 
 	document.getElementById('logo_lg').style.display="none";
 	document.getElementById('home_screen').style.backgroundImage = "url('../img/backgroud_s.jpg')";
-	setTimeout(function(){
-		document.getElementById('home_screen').style.width = "100%";
-	}, 500);
+	// setTimeout(function(){
+	// 	document.getElementById('home_screen').style.width = "100%";
+	// }, 500);
 
 	if(list_share_image.length > 0 && nun_percent == 30) {
 		document.getElementById('img_content').src = list_share_image[0].i_img;

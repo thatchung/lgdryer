@@ -10,6 +10,7 @@ body{
   margin: 0 auto !important;
   max-width: 430px;
   height: 100%;
+  overflow: hidden;
 }
 *::-webkit-media-controls-panel {
   display: none!important;
@@ -40,6 +41,7 @@ body{
   background-image: url(../img/backgroud.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 .screen-1{
